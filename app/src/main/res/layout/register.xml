@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F1F1">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/dr_Profile"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profilepicture"
+        >
+    </ImageView>
+
+
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:id="@+id/user_name"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/curved_border"
+        android:hint="User name"
+        android:paddingLeft="18dp"
+        android:textColor="#A7A7A7">
+
+    </EditText>
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:id="@+id/Email_Address"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/curved_border"
+        android:hint="Email address"
+        android:paddingLeft="18dp"
+        android:textColor="#A7A7A7">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Phone_numb"
+        android:layout_gravity="center"
+        android:background="@drawable/curved_border"
+        android:hint="Phone number"
+        android:paddingLeft="18dp"
+        android:textColor="#A7A7A7">
+
+    </EditText>
+
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/password"
+        android:layout_gravity="center"
+        android:background="@drawable/curved_border"
+        android:hint="Password"
+        android:paddingLeft="18dp"
+        android:textColor="#A7A7A7">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/confirm_password"
+        android:layout_gravity="center"
+        android:background="@drawable/curved_border"
+        android:hint=" Confirm password"
+        android:paddingLeft="18dp"
+        android:textColor="#A7A7A7">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:background="@drawable/curved_border_button"
+        android:text="Create account"
+        android:onClick="CreateAccount"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textColor="#FFFF">
+
+    </Button>
+
+    <TextView
+        android:layout_width="56dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="7dp"
+        android:text="Sign in"
+        android:id="@+id/signIn"
+        android:onClick="signinFregister"
+        android:textColor="#363636"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+    </TextView>
+
+
+
+</LinearLayout>

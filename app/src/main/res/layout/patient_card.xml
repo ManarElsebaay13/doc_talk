@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="335dp"
+    android:layout_height="85dp"
+    android:background="@drawable/curved_border_appointment"
+    >
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/patient"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/patientphoto">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="87dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@id/patient"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientname"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Ali Mansour">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientsession"
+            android:text="4 sessions"
+            android:textColor="#0963FF">
+
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

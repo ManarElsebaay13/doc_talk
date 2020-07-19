@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/SignIn"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="#F1F1F1">
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="85dp"
+    android:layout_marginLeft="84dp"
+    android:id="@+id/logo"
+    android:src="@drawable/logo">
+
+</ImageView>
+
+    <TextView
+        android:layout_width="87dp"
+        android:layout_height="32dp"
+        android:id="@+id/Signin"
+        android:text="SIGN IN"
+        android:layout_marginLeft="144dp"
+        android:layout_marginRight="144dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0963FF">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/Phone_number"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/curved_border"
+        android:hint="Phone number"
+        android:paddingLeft="18dp"
+        android:textColor="#A7A7A7">
+
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/password"
+        android:background="@drawable/curved_border"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:paddingLeft="18dp"
+        android:textColor="#A7A7A7">
+
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/checkbox"
+            >
+
+        </CheckBox>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:text="Agree on our"
+            android:textSize="16sp"
+            android:textColor="#A7A7A7"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:text="terms and conditions"
+            android:textSize="16sp"
+            android:textColor="#363636"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Sign_in"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:background="@drawable/curved_border_button"
+        android:text="Sign in"
+        android:onClick="Sign"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFF">
+
+    </Button>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:text="Register as a doctor"
+        android:id="@+id/register_text"
+        android:onClick="Register"
+        android:textColor="#363636"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="5dp"
+        android:text="Forgot password?"
+        android:id="@+id/forgetpass"
+        android:onClick="Forgetpass"
+        android:textColor="#A7A7A7"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:layout_gravity="center">
+
+    </TextView>
+
+
+</LinearLayout>

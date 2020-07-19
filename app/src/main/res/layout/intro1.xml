@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/intro_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50.3dp"
+    android:paddingLeft="23.37dp"
+    android:paddingRight="20.98dp"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="#F1F1F1">
+
+    <ImageView
+        android:layout_width="330.65dp"
+        android:layout_height="336.35dp"
+        android:layout_marginBottom="36.14dp"
+        android:id="@+id/img1"
+        android:src="@drawable/splash1">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+        android:id="@+id/txt1"
+        android:text="In Control"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="119dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0963FF">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="6dp"
+        android:textSize="14sp"
+        android:text="Set your available hours and follow up all your appointments easly"
+        android:textColor="#858585"
+        android:gravity="center"
+        android:layout_marginBottom="84dp"
+        android:id="@+id/txt2">
+
+    </TextView>
+
+
+
+</LinearLayout>

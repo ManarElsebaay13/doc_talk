@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:id="@+id/Appointment_card"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/curved_border_appointment"
+    android:layout_marginRight="20dp">
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/Patient_Profile"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/patientphoto">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/patientname"
+            android:textColor="#000000"
+            android:text="Ali mansour">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="#0963FF"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="105dp"
+            android:id="@+id/patientTime"
+            android:text="03:30 am">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="41dp"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:textStyle="normal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/State"
+            android:textColor="#9B9B9B"
+            android:text="I have a high blood pressure which have a huge effect on my daily">
+
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/Video"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/videocall">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/cancel"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/cancel">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

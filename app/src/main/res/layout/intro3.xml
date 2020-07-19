@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Intro_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingLeft="19.8dp"
+    android:paddingRight="22.98dp"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="#F1F1F1">
+
+    <ImageView
+        android:layout_width="300.18dp"
+        android:layout_height="300.6dp"
+        android:layout_marginBottom="35.63dp"
+        android:id="@+id/img3"
+        android:src="@drawable/splash3">
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="40dp"
+        android:id="@+id/txt13"
+        android:text="Follow up"
+        android:textSize="30sp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginRight="121dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0963FF">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="51dp"
+        android:text="Check your patients medical history and all information that help you."
+        android:textColor="#858585"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="84dp"
+        android:id="@+id/txt23">
+
+    </TextView>
+
+
+</LinearLayout>

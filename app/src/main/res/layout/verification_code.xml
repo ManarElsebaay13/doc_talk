@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/verification_Code"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="#F1F1F1">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginLeft="84dp"
+        android:id="@+id/order"
+        android:src="@drawable/order">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="32dp"
+        android:id="@+id/ver_code"
+        android:text="Verification code"
+        android:textAllCaps="true"
+        android:layout_marginLeft="87dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#0963FF">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/verification_code"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/curved_border"
+        android:textSize="18sp"
+        android:paddingLeft="18dp"
+        android:textColor="#A7A7A7">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/Send_msg"
+        android:layout_width="137dp"
+        android:layout_height="45dp"
+        android:background="@drawable/curved_border_button"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFF">
+
+    </Button>
+
+   <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="27 s"
+        android:textSize="18sp"
+        android:textColor="#0963FF"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="to send again"
+        android:textSize="18sp"
+        android:textColor="#A7A7A7"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+    </TextView>
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>
